@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Office Supplies</title>
+  <link rel="stylesheet" href="css/styles.css">
+  
+</head>
+<body>
+  <!-- Header with Logo and Navigation -->
+  <header class="main-header">
+    <div class="logo">
+      <img src="images/pen_icon.jpg" alt="Office Supplies">
+      <span>Office Supplies Ltd</span>
+    </div>
+    <nav class="navbar">
+        <nav>
+            <ul>
+              <li><a href="#stationery">Stationery</a></li>
+              <li><a href="#organizers">Organizers</a></li>
+              <li><a href="#desk-accessories">Desk Accessories</a></li>
+              <li><a href="#notebooks">Notebooks</a></li>
+            </ul>
+            <input type="text" id="search" placeholder="Search products...">
+    </nav></nav>
+    <div class="cart-icon">
+      <a href="cart.html">
+        <img src="images/cart_icon.png" alt="Shopping Cart">
+        <span id="cart-count">0</span>
+      </a>
+    </div>
+  </header>
+
+  <!-- Welcome Section -->
+  <section id="welcome" class="welcome-section">
+    <h1>Welcome to Office Supplies platform where everything is easy with us</h1>
+    <p>Explore our products and experience whatever you see here.</p> 
+  </section>
+
+  <main>
+    <section id="stationery" class="category">
+      <h2>Stationery</h2>
+      <div class="product-grid">
+        <div class="product-card">
+          <img src="images/s1.jpg" alt="Stationery Product">
+          <p>Pen Set - $5.99</p>
+          <button onclick="addToCart('Pen Set', 5.99)">Add to Cart</button>
+        </div>
+        <div class="product-grid">
+          <div class="product-card">
+            <img src="images/s3 (2).jpg" alt="Stationery Product">
+            <p>Pen Set - $4.99</p>
+            <button onclick="addToCart('Pen Set', 5.99)">Add to Cart</button>
+          </div>
+          <div class="product-grid">
+            <div class="product-card">
+              <img src="images/s3.jpg" alt="Stationery Product">
+              <p>Pen Set - $9</p>
+              <button onclick="addToCart('Pen Set', 5.99)">Add to Cart</button>
+            </div>
+          <div class="product-grid">
+            <div class="product-card">
+              <img src="images/s2.jpg" alt="Stationery Product">
+              <p>Pen Set - $3.99</p>
+              <button onclick="addToCart('Pen Set', 5.99)">Add to Cart</button>
+            </div>
+      </div>
+    </section>
+
+    <section id="organizers" class="category">
+      <h2>Organizers</h2>
+      <div class="product-grid">
+        <div class="product-card">
+          <img src="images/orga.jpg" alt="Organizer Product">
+          <p>Desk Organizer - $8.99</p>
+          <button onclick="addToCart('Desk Organizer', 8.99)">Add to Cart</button>
+        </div>
+        <div class="product-card">
+          <img src="images/orgag.jpg" alt="Organizer Product">
+          <p>Desk Organizer - $12</p>
+          <button onclick="addToCart('Desk Organizer', 8.99)">Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="images/organ.jpg" alt="Organizer Product">
+            <p>Desk Organizer - $14.77</p>
+            <button onclick="addToCart('Desk Organizer', 8.99)">Add to Cart</button>
+          </div>
+          <div class="product-card">
+            <img src="images/organic.jpg" alt="Organizer Product">
+            <p>Desk Organizer - $2</p>
+            <button onclick="addToCart('Desk Organizer', 8.99)">Add to Cart</button>
+          </div>
+      </div>
+    </section>
+
+    <section id="desk-accessories" class="category">
+      <h2>Desk Accessories</h2>
+      <div class="product-grid">
+        <div class="product-card">
+          
+          <img src="images/desk (2).jpg" alt="Desk Accessory Product">
+
+          <p>Designed desk - $4.99</p>
+          <button onclick="addToCart('Pen Holder', 4.99)">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+          
+          <img src="images/desk (3).jpg" alt="Desk Accessory Product">
+
+          <p>Designed desk - $7</p>
+          <button onclick="addToCart('Pen Holder', 4.99)">Add to Cart</button>
+        </div>
+        <div class="product-card">
+           
+            <img src="images/desk3.jpg" alt="Desk Accessory Product">
+  
+            <p>Designed desk - $10</p>
+            <button onclick="addToCart('Pen Holder', 4.99)">Add to Cart</button>
+          </div>
+          <div class="product-card">
+           
+            <img src="images/desk (2).jpg" alt="Desk Accessory Product">
+  
+            <p>Designed desk - $6.99</p>
+            <button onclick="addToCart('Pen Holder', 4.99)">Add to Cart</button>
+          </div>
+      </div>
+    </section>
+
+    <section id="notebooks" class="category">
+      <h2>Notebooks</h2>
+      <div class="product-grid">
+        <div class="product-card">
+          <img src="images/note5.jpg" alt="Notebook Product">
+          
+
+          <p>Spiral Notebook - $1.99</p>
+          <button onclick="addToCart('Spiral Notebook', 1.99)">Add to Cart</button>
+        </div>
+        <div class="product-card">
+          <img src="images/not1.jpg" alt="Notebook Product">
+          
+
+          <p>Spiral Notebook - $2.99</p>
+          <button onclick="addToCart('Spiral Notebook', 1.99)">Add to Cart</button>
+        </div>
+        <div class="product-card">
+          <img src="images/note4.jpg" alt="Notebook Product">
+          
+
+          <p>Spiral Notebook - $7.9</p>
+          <button onclick="addToCart('Spiral Notebook', 1.99)">Add to Cart</button>
+        </div>
+        <div class="product-card">
+          <img src="images/not2.jpg" alt="Notebook Product">
+          
+
+          <p>Spiral Notebook - $11.99</p>
+          <button onclick="addToCart('Spiral Notebook', 1.99)">Add to Cart</button>
+        </div>
+      </div>
+    </section>
+  </main>
+  <script src="scripts.js"></script>
+
+<footer>
+  
+<div class="footer">
+  <div class="footer-container">
+      <div class="footer-column">
+          <h3>ABOUT US</h3>
+          <div class="footer-logo">
+              <img src="" alt="office supplier">
+          </div>
+          <p>Office Supplies is a leading eCommerce platform in Rwanda that sells millions of selected items.</p>
+          <a href="#" class="read-more">Read more...</a>
+      </div>
+
+      <div class="footer-column">
+          <h3>CONTACT INFO</h3>
+          <p><strong>ADDRESS:</strong> Musanze, Kamuhoza Near lycee de Ruhengeri Apicur</p>
+          <p><strong>PHONE:</strong> +250 789 2002 198</p>
+          <p><strong>EMAIL:</strong> offsupplier@gmail.com</p>
+          <p><strong>WORKING DAYS/HOURS:</strong> Mon - Sun / 9:00 AM - 8:00 PM</p>
+          <div class="social-icons">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+          </div>
+      </div>
+
+      <div class="footer-column">
+          <h3>CUSTOMER SERVICE</h3>
+          <ul>
+              <li><a href="#">Help & FAQs</a></li>
+              <li><a href="#">Order Tracking</a></li>
+              <li><a href="#">Shipping & Delivery</a></li>
+              <li><a href="#">Orders History</a></li>
+              <li><a href="#">Advanced Search</a></li>
+              <li><a href="#">My Account</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Corporate Sales</a></li>
+              <li><a href="#">Privacy</a></li>
+          </ul>
+      </div>
+
+      <div class="footer-column">
+          <h3>POPULAR TAGS</h3>
+          <div class="tags">
+              <a href="#">Desk Accessories</a>
+              <a href="#">Black</a>
+              <a href="#">Blue</a>
+              <a href="#">Organizers</a>
+              <a href="#">Fashion</a>
+              <a href="#">stationery</a>
+              <a href="#">Notebook</a>
+              <a href="#">Spiral notebooks</a>
+              <a href="#">desk organizers</a>
+              <a href="#">Sports</a>
+              <a href="#">Sweater</a>
+              <a href="#">Winter</a>
+          </div>
+      </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2024 Office Supplies. All rights reserved.</p>
+  </div>
+   
+  </footer>
+</body>
+</html>
